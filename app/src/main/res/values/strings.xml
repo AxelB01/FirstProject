@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">First Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Esta es una prueba</string>
+    <string name="welcome_mesage">¡Bienvenido!</string>
+    <string name="first_message">Esta es la aplicación de registro propuesta para el proyecto de primer ciclo de la materia de Desarrollo de Aplicaciones Móviles I.\nSin nada más que agregar, puede empezar.</string>
+    <string name="img_selection_fragment">Imagen del fragmento inicial</string>
+    <string name="img_registration">Imagen del fragmento de registro</string>
+    <string name="img_login">Imagen del fragmento de login</string>
+    <string name="img_pass_recovery">Imagen del fragmento de recuperación de contraseña</string>
+    <string name="img_main">Imagen para la actividad principal</string>
+    <string name="str_registration">Registrarse</string>
+    <string name="str_account">¿Ya tienes una cuenta?</string>
+    <string name="str_login">Iniciar sesión</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="ddl_sexo">Sexo</string>
+    <string name="txt_fecha">Fecha de nacimiento</string>
+    <string name="ddl_pais">País</string>
+    <string name="ddl_estado">Provincia o Estado</string>
+    <string name="txt_direccion">Dirección</string>
+    <string name="txt_tele">Teléfono</string>
+    <string name="txt_correo">Correo electrónico</string>
+    <string name="txt_pass">Contraseña</string>
+    <string name="txt_pass_2">Confirmar contraseña</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_forgot_pass"><u>¿Olvidate tu contraseña?</u></string>
+    <string name="str_pass_recovery_title">Recuperar Contraseña</string>
+    <string name="str_pass_recovery_btn_message">Recuperar</string>
+    <string name="str_pass_recovery_message">Ingrese el correo electrónico asociado a su cuenta en esta aplicación.\nLe llegará un mensaje con su contraseña.</string>
+    <string name="content_description_scrollview">Descripción para ScrollView</string>
+    <string name="btn_salir">Salir</string>
+</resources>

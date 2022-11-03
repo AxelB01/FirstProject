@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout_loginFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginFragment">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="227dp"
+        android:layout_height="335dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/img_login"
+        android:src="@drawable/img_login" />
+
+    <EditText
+        android:id="@+id/txtLoginUserName"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:hint="@string/txt_correo"
+        android:inputType="textPersonName"
+        android:minHeight="55dp"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/txtLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_edittext"
+        android:ems="10"
+        android:hint="@string/txt_pass"
+        android:inputType="textPassword"
+        android:minHeight="55dp"
+        android:paddingStart="10dp" />
+
+    <Button
+        android:id="@+id/btnForgotPass"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:text="@string/btn_forgot_pass"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLogInUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/btn_login"
+        android:textSize="16sp" />
+</LinearLayout>
